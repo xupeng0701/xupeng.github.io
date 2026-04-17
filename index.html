@@ -1,46 +1,224 @@
-<section id="projects">
-  <h2>Projects</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr Xu Peng</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f8f8f6;
+      color: #222;
+      line-height: 1.75;
+    }
 
-  <p>
-    My research is organised around two major book projects on armed politics, borderland governance, and digital illicit economies, alongside a research-led workshop series on methods, gender, and fieldwork in conflict settings.
-  </p>
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 24px 80px 24px;
+    }
 
-  <p>
-    <strong>Borderland Statecraft: Armed Politics in Southeast Asia’s Contested Borderlands</strong><br>
-    <em>Book project, under contract with Cornell University Press</em><br>
-    Growing out of my PhD at SOAS University of London (2020–2024), this book project examines how armed organisations such as the Wa and Kokang have navigated between the Myanmar state and China. It argues that China has shaped their trajectories not only as a neighbouring power, but also as a political model, an institutional influence, and a historical force. By tracing how non-state armed actors selectively adapted Chinese forms of party organisation, territorial administration, and governance, the project explains why political authority in the China–Myanmar borderlands has developed along divergent paths.
-  </p>
+    header {
+      border-bottom: 1px solid #d9d9d9;
+      padding-bottom: 24px;
+      margin-bottom: 40px;
+    }
 
-  <p>
-    <strong>Related publications:</strong><br>
-    “The Politics of Persistence: China’s Border Government and Aid to the Communist Party of Burma, 1969–1989.” <em>Asian Studies Review</em> (2025).<br>
-    “The Enduring Legacy and Historical Continuity of Kokang’s Mutinies in the China-Myanmar Borderlands.” <em>Journal of Contemporary Asia</em> (2025).<br>
-    “Playing with Fire: How Engagement with Illicit Economies Shapes the Survival and Resilience of Ethnic Armed Organisations in the China-Myanmar Borderlands.” <em>China Perspectives</em> (2024).
-  </p>
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 2.6rem;
+      font-weight: 600;
+    }
 
-  <p>
-    <strong>Logistics Politics in the Cracks: Digital Illicit Economies at the Margins</strong><br>
-    <em>Second book project</em><br>
-    My second book project examines the online scam industry and the wider political economy of digital illicit economies across Southeast Asia and beyond. It explores how scam operations are embedded in borderland governance, logistical systems, and transnational infrastructures, and how they reshape relations between sovereignty, mobility, labour, and violence. More broadly, the project uses empirically grounded regional research to address wider International Relations questions about sovereignty, order, conflict, and power.
-  </p>
+    .title {
+      font-size: 1.15rem;
+      color: #555;
+      margin-bottom: 18px;
+    }
 
-  <p>
-    <strong>Selected outputs and ongoing work:</strong><br>
-    “The Logistics and (Im)Mobilities of Digital Illicit Economies: The Online Scam Industry in Southeast Asia.” <em>Mobilities</em>, forthcoming / special issue project.<br>
-    “Illicit Economies as Political Leverage: Armed Group Strategies and the Politics of Recognition.” Article in progress.<br>
-    Ongoing research on checkpoint systems and the comparative politics of control across Southeast Asia and West Africa.
-  </p>
+    nav a {
+      margin-right: 18px;
+      color: #1a4d8f;
+      text-decoration: none;
+      font-weight: 500;
+    }
 
-  <p>
-    <strong>Female Scholars in Conflict Studies</strong><br>
-    <em>Convened workshop series, SOAS University of London, 2025–2026</em><br>
-    I convene the Female Scholars in Conflict Studies workshop series, a research-led initiative that brings together discussions on methods, ethics, gender, and access in the study of conflict and hostile contexts. The series provides a platform for methodological reflection, intellectual exchange, and support for scholars working on difficult field sites and politically sensitive topics.
-  </p>
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-  <p>
-    <strong>Selected workshops:</strong><br>
-    “Researching the Digital Illicit Economy: Methods, Ethics, and Access” (March 2026).<br>
-    “Doing Ethnography in Hostile Contexts: A Conversation with Professor Ching Kwan Lee” (February 2026).<br>
-    “Female Scholars in Conflict Studies: Research Methods Reflections” (July 2025).
-  </p>
-</section>
+    section {
+      margin-bottom: 48px;
+      scroll-margin-top: 30px;
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      margin: 26px 0 8px 0;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 14px 0;
+    }
+
+    ul {
+      margin-top: 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #1a4d8f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .project-block {
+      margin-bottom: 26px;
+    }
+
+    .project-meta {
+      color: #666;
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+
+    .section-intro {
+      color: #444;
+      margin-bottom: 18px;
+    }
+
+    footer {
+      border-top: 1px solid #d9d9d9;
+      padding-top: 18px;
+      color: #666;
+      font-size: 0.95rem;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 700px) {
+      h1 {
+        font-size: 2.1rem;
+      }
+
+      .title {
+        font-size: 1rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-right: 14px;
+        margin-bottom: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Dr Xu Peng</h1>
+      <div class="title">Hallsworth Research Fellow in Political Economy, University of Manchester</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Dr Xu Peng is Hallsworth Research Fellow in Political Economy at the University of Manchester. Her research examines conflict, illicit economies, borderlands, and China–Southeast Asia relations, with a particular focus on Myanmar and the China–Myanmar borderland.
+      </p>
+      <p>
+        Trained in political science, she adopts a historically grounded approach that integrates archival research, fieldwork-based oral histories, and political economy analysis. Her work speaks to wider questions in International Relations and Political Economy concerning sovereignty, order, conflict, and power.
+      </p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="section-intro">
+        Selected peer-reviewed publications.
+      </p>
+      <ul>
+        <li>Peng, Xu. “China’s Selective Influence in Myanmar’s Conflict.” <em>Current History</em> (2026).</li>
+        <li>Peng, Xu. “The Politics of Persistence: China’s Border Government and Aid to the Communist Party of Burma, 1969–1989.” <em>Asian Studies Review</em> (2025).</li>
+        <li>Peng, Xu. “The Enduring Legacy and Historical Continuity of Kokang’s Mutinies in the China-Myanmar Borderlands.” <em>Journal of Contemporary Asia</em> (2025).</li>
+        <li>Peng, Xu. “Playing with Fire: How Engagement with Illicit Economies Shapes the Survival and Resilience of Ethnic Armed Organisations in the China-Myanmar Borderlands.” <em>China Perspectives</em> (2024).</li>
+        <li>Peng, Xu. “The Political Economy of Ethnic Armed Organisations in the China-Myanmar Borderland: Opium, Gambling, and Online Scams.” <em>Global China Pulse</em> (2024).</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p class="section-intro">
+        My research is organised around two major book projects on armed politics, borderland governance, and digital illicit economies, alongside a research-led workshop series on methods, gender, and fieldwork in conflict settings.
+      </p>
+
+      <div class="project-block">
+        <h3>Borderland Statecraft: Armed Politics in Southeast Asia’s Contested Borderlands</h3>
+        <p class="project-meta">Book project, under contract with Cornell University Press</p>
+        <p>
+          Growing out of my PhD at SOAS University of London (2020–2024), this book project examines how armed organisations such as the Wa and Kokang have navigated between the Myanmar state and China. It argues that China has shaped their trajectories not only as a neighbouring power, but also as a political model, an institutional influence, and a historical force.
+        </p>
+        <p>
+          By tracing how non-state armed actors selectively adapted Chinese forms of party organisation, territorial administration, and governance, the project explains why political authority in the China–Myanmar borderlands has developed along divergent paths.
+        </p>
+        <p>
+          <strong>Related publications:</strong><br>
+          “The Politics of Persistence: China’s Border Government and Aid to the Communist Party of Burma, 1969–1989.” <em>Asian Studies Review</em> (2025).<br>
+          “The Enduring Legacy and Historical Continuity of Kokang’s Mutinies in the China-Myanmar Borderlands.” <em>Journal of Contemporary Asia</em> (2025).<br>
+          “Playing with Fire: How Engagement with Illicit Economies Shapes the Survival and Resilience of Ethnic Armed Organisations in the China-Myanmar Borderlands.” <em>China Perspectives</em> (2024).
+        </p>
+      </div>
+
+      <div class="project-block">
+        <h3>Logistics Politics in the Cracks: Digital Illicit Economies at the Margins</h3>
+        <p class="project-meta">Second book project</p>
+        <p>
+          My second book project examines the online scam industry and the wider political economy of digital illicit economies across Southeast Asia and beyond. It explores how scam operations are embedded in borderland governance, logistical systems, and transnational infrastructures, and how they reshape relations between sovereignty, mobility, labour, and violence.
+        </p>
+        <p>
+          More broadly, the project uses empirically grounded regional research to address wider International Relations questions about sovereignty, order, conflict, and power.
+        </p>
+      </div>
+
+      <div class="project-block">
+        <h3>Female Scholars in Conflict Studies</h3>
+        <p class="project-meta">Convened workshop series, SOAS University of London, 2025–2026</p>
+        <p>
+          I convene the <em>Female Scholars in Conflict Studies</em> workshop series, a research-led initiative that brings together discussions on methods, ethics, gender, and access in the study of conflict and hostile contexts. The series provides a platform for methodological reflection, intellectual exchange, and support for scholars working on difficult field sites and politically sensitive topics.
+        </p>
+        <p>
+          <strong>Selected workshops:</strong><br>
+          “Researching the Digital Illicit Economy: Methods, Ethics, and Access” (March 2026).<br>
+          “Doing Ethnography in Hostile Contexts: A Conversation with Professor Ching Kwan Lee” (February 2026).<br>
+          “Female Scholars in Conflict Studies: Research Methods Reflections” (July 2025).
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Contact: <a href="mailto:xu.peng@manchester.ac.uk">xu.peng@manchester.ac.uk</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
