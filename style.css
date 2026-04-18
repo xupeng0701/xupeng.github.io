@@ -4,17 +4,11 @@
   --muted: #666;
   --line: #d8d8d8;
   --link: #184f90;
-  --card: #ffffff;
-  --accent: #ece9e1;
   --max: 980px;
 }
 
 * {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -31,7 +25,7 @@ body {
   padding: 56px 24px 80px;
 }
 
-header.site-header {
+.site-header {
   border-bottom: 1px solid var(--line);
   padding-bottom: 24px;
   margin-bottom: 42px;
@@ -49,25 +43,25 @@ header.site-header {
   margin-bottom: 18px;
 }
 
-nav.site-nav {
+.site-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 14px 18px;
 }
 
-nav.site-nav a {
+.site-nav a {
   text-decoration: none;
   color: var(--link);
   font-weight: 500;
 }
 
-nav.site-nav a.active {
+.site-nav a.active {
   color: var(--text);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-nav.site-nav a:hover {
+.site-nav a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -83,14 +77,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
-  margin: 34px 0 12px 0;
+  font-size: 1.22rem;
+  margin: 32px 0 12px 0;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 1.08rem;
-  margin: 24px 0 10px 0;
+  font-size: 1.06rem;
+  margin: 22px 0 10px 0;
   font-weight: 600;
 }
 
@@ -109,7 +103,6 @@ a:hover {
 
 .page-intro {
   max-width: 860px;
-  color: #343434;
 }
 
 .hero-box {
@@ -126,53 +119,29 @@ a:hover {
   margin: 22px 0 30px 0;
 }
 
-.note {
-  color: var(--muted);
-  font-style: italic;
-}
-
-.card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  padding: 20px 20px 14px 20px;
-  margin: 20px 0;
-}
-
 .meta {
   color: var(--muted);
   font-style: italic;
   margin-bottom: 10px;
 }
 
-ul.clean-list {
+.section-block {
+  margin-bottom: 28px;
+}
+
+.clean-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-ul.clean-list li {
+.clean-list li {
   padding: 12px 0;
   border-bottom: 1px solid #e5e5e5;
 }
 
-ul.clean-list li:last-child {
+.clean-list li:last-child {
   border-bottom: none;
-}
-
-.pub-title {
-  display: inline;
-}
-
-.pub-meta {
-  color: var(--muted);
-}
-
-footer.site-footer {
-  border-top: 1px solid var(--line);
-  margin-top: 60px;
-  padding-top: 18px;
-  color: var(--muted);
-  font-size: 0.96rem;
 }
 
 .contact-list p {
