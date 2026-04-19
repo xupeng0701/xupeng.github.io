@@ -11,10 +11,12 @@
       --muted: #6d6a66;
       --accent: #8d5f4f;
       --line: #ddd6cc;
-      --max: 980px;
+      --max: 900px;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
@@ -58,7 +60,7 @@
     }
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.6rem;
       line-height: 1.15;
       margin: 0 0 1rem;
     }
@@ -66,7 +68,7 @@
     .subtitle {
       color: var(--muted);
       max-width: 760px;
-      font-size: 1.05rem;
+      font-size: 1.08rem;
     }
 
     main {
@@ -74,22 +76,26 @@
     }
 
     section {
-      margin-bottom: 3rem;
-      padding-bottom: 1.75rem;
+      margin-bottom: 1.75rem;
+      padding-bottom: 0.9rem;
       border-bottom: 1px solid var(--line);
     }
 
     h2 {
-      font-size: 1.45rem;
-      margin: 0 0 1rem;
+      font-size: 1.4rem;
+      margin: 0 0 0.9rem;
     }
 
     .entry {
-      margin-bottom: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .entry:last-child {
+      margin-bottom: 0;
     }
 
     .citation {
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.2rem;
     }
 
     .linkline {
@@ -104,7 +110,14 @@
     }
 
     @media (max-width: 700px) {
-      h1 { font-size: 2rem; }
+      h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+      }
     }
   </style>
 </head>
@@ -199,9 +212,6 @@
         <div class="entry">
           <div class="citation">
             Interviewed by <em>South China Morning Post</em> on China’s role in Myanmar’s conflict dynamics, January 2025.
-          </div>
-          <div class="linkline">
-            <span>Link to be confirmed from master file.</span>
           </div>
         </div>
 
