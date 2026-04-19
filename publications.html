@@ -3,72 +3,283 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dr Xu Peng | Publications</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Xu Peng | Publications</title>
+  <style>
+    :root {
+      --bg: #f7f4ef;
+      --text: #1f1f1f;
+      --muted: #6d6a66;
+      --accent: #8d5f4f;
+      --line: #ddd6cc;
+      --max: 980px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      padding: 4rem 0 2.5rem;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(to bottom, #fbf8f3, #f7f4ef);
+    }
+
+    nav {
+      margin-bottom: 2rem;
+      font-size: 0.98rem;
+    }
+
+    nav a {
+      margin-right: 1.25rem;
+      display: inline-block;
+      margin-bottom: 0.4rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      line-height: 1.15;
+      margin: 0 0 1rem;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      max-width: 760px;
+      font-size: 1.05rem;
+    }
+
+    main {
+      padding: 3rem 0 4rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      padding-bottom: 1.75rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      margin: 0 0 1rem;
+    }
+
+    .entry {
+      margin-bottom: 1.75rem;
+    }
+
+    .citation {
+      margin-bottom: 0.4rem;
+    }
+
+    .status {
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .linkline {
+      font-size: 0.96rem;
+      color: var(--muted);
+    }
+
+    footer {
+      padding: 2rem 0 3rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 700px) {
+      h1 { font-size: 2rem; }
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <header class="site-header">
-      <div class="site-title">Dr Xu Peng</div>
-      <div class="site-subtitle">Hallsworth Research Fellow in Political Economy, University of Manchester</div>
-      <nav class="site-nav">
+  <header>
+    <div class="container">
+      <nav>
         <a href="index.html">About</a>
         <a href="research.html">Research</a>
-        <a href="publications.html" class="active">Publications</a>
+        <a href="publications.html">Publications</a>
         <a href="projects.html">Projects</a>
+        <a href="media.html">Media</a>
         <a href="contact.html">Contact</a>
       </nav>
-    </header>
 
-    <main>
       <h1>Publications</h1>
+      <p class="subtitle">
+        Selected peer-reviewed publications, review and public scholarship, and ongoing work.
+      </p>
+    </div>
+  </header>
 
-      <h2>Peer-reviewed Articles</h2>
-      <ul class="clean-list">
-        <li>
-          Peng, Xu. “China’s Selective Influence in Myanmar’s Conflict.” <em>Current History</em> (2026).<br>
-          <a href="https://doi.org/10.1525/curh.2026.125.870.133" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Peng, Xu. “The Politics of Persistence: China’s Border Government and Aid to the Communist Party of Burma, 1969–1989.” <em>Asian Studies Review</em> (2025).<br>
-          <a href="https://doi.org/10.1080/10357823.2025.2575054" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Peng, Xu. “The Enduring Legacy and Historical Continuity of Kokang’s Mutinies in the China-Myanmar Borderlands.” <em>Journal of Contemporary Asia</em> (2025).<br>
-          <a href="https://doi.org/10.1080/00472336.2025.2468511" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Peng, Xu. “Playing with Fire: How Engagement with Illicit Economies Shapes the Survival and Resilience of Ethnic Armed Organisations in the China-Myanmar Borderlands.” <em>China Perspectives</em> 138 (2024): 9–20.<br>
-          <a href="http://journals.openedition.org/chinaperspectives/17295" target="_blank" rel="noopener noreferrer">Link</a>
-        </li>
-        <li>
-          Peng, Xu. “The Political Economy of Ethnic Armed Organisations in the China-Myanmar Borderland: Opium, Gambling, and Online Scams.” <em>Global China Pulse</em> (2024).<br>
-          <a href="https://doi.org/10.69131/GCP.03.01.2024.5" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-      </ul>
+  <main>
+    <div class="container">
 
-      <h2>Reviews, Commentary, and Public Scholarship</h2>
-      <ul class="clean-list">
-        <li>
-          Peng, Xu. Review of <em>Taiwan and Southeast Asia: Soft Power and Hard Truths Facing China’s Ascendancy</em>, edited by Karl Chee Leong Lee and Ying-kit Chan. <em>International Journal of Taiwan Studies</em> 8, no. 1 (2024): 240–242.<br>
-          <a href="https://doi.org/10.1163/24688800-20241398" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Peng, Xu. “Huge Online Scam Operations Are Flourishing in War-torn Myanmar.” <em>The Conversation</em> (2025).<br>
-          <a href="https://doi.org/10.64628/AB.qhd4nd5un" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Peng, Xu, Jonathan Goodhand, Patrick Meehan, and Naomi Yonder. “Capitalism and Conflict at the Margins: Why Online Scams Flourish in Myanmar’s Borderlands.” <em>SOAS Blog</em> (2025).<br>
-          <a href="https://www.soas.ac.uk/about/blogs/capitalism-and-conflict-margins-why-online-scams-flourish-myanmars-borderlands" target="_blank" rel="noopener noreferrer">Link</a>
-        </li>
-        <li>
-          Peng, Xu. “The Enduring Legacy and Historical Continuity of Kokang’s Mutinies.” <em>Tea Circle</em> (2023).
-        </li>
-        <li>
-          Peng, Xu. “The Shadow of Chinese War: Ethnic Tensions, Geopolitics, and Online Scams in the Kokang Conflict in the China-Myanmar Borderland.” <em>SOAS China Institute Blog</em> (2023).
-        </li>
-      </ul>
-    </main>
-  </div>
+      <section>
+        <h2>Peer-reviewed Journal Articles</h2>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2026. “China’s Selective Influence in Myanmar’s Conflict.” <em>Current History</em> 125 (870): 133–138.
+          </div>
+          <div class="linkline">
+            <a href="https://doi.org/10.1525/curh.2026.125.870.133" target="_blank">https://doi.org/10.1525/curh.2026.125.870.133</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2025. “The Politics of Persistence: China’s Border Government and Aid to the Communist Party of Burma, 1969–1989.” <em>Asian Studies Review</em>: 1–21.
+          </div>
+          <div class="linkline">
+            <a href="https://doi.org/10.1080/10357823.2025.2575054" target="_blank">https://doi.org/10.1080/10357823.2025.2575054</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2025. “The Enduring Legacy and Historical Continuity of Kokang’s Mutinies in the China-Myanmar Borderlands.” <em>Journal of Contemporary Asia</em>: 1–23.
+          </div>
+          <div class="linkline">
+            <a href="https://doi.org/10.1080/00472336.2025.2468511" target="_blank">https://doi.org/10.1080/00472336.2025.2468511</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2024. “Playing with Fire: How Engagement with Illicit Economies Shapes the Survival and Resilience of Ethnic Armed Organisations in the China-Myanmar Borderlands.” <em>China Perspectives</em> 138: 9–20.
+          </div>
+          <div class="linkline">
+            <a href="http://journals.openedition.org/chinaperspectives/17295" target="_blank">http://journals.openedition.org/chinaperspectives/17295</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2024. “The Political Economy of Ethnic Armed Organisations in the China-Myanmar Borderland: Opium, Gambling, and Online Scams.” <em>Global China Pulse</em>, Centre for East and South-East Asian Studies, Lund University.
+          </div>
+          <div class="linkline">
+            <a href="https://doi.org/10.69131/GCP.03.01.2024.5" target="_blank">https://doi.org/10.69131/GCP.03.01.2024.5</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Review and Public Scholarship</h2>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2024. Review of <em>Taiwan and Southeast Asia: Soft Power and Hard Truths Facing China’s Ascendancy</em>, edited by Karl Chee Leong Lee and Ying-kit Chan. <em>International Journal of Taiwan Studies</em> 8 (1): 240–242.
+          </div>
+          <div class="linkline">
+            <a href="https://doi.org/10.1163/24688800-20241398" target="_blank">https://doi.org/10.1163/24688800-20241398</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2025. “Huge Online Scam Operations Are Flourishing in War-torn Myanmar.” <em>The Conversation</em>.
+          </div>
+          <div class="linkline">
+            <a href="https://doi.org/10.64628/AB.qhd4nd5un" target="_blank">https://doi.org/10.64628/AB.qhd4nd5un</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu, Jonathan Goodhand, Patrick Meehan, and Naomi Yonder. 2025. “Capitalism and Conflict at the Margins: Why Online Scams Flourish in Myanmar’s Borderlands.” <em>SOAS Blog</em>.
+          </div>
+          <div class="linkline">
+            <a href="https://www.soas.ac.uk/about/blogs/capitalism-and-conflict-margins-why-online-scams-flourish-myanmars-borderlands" target="_blank">https://www.soas.ac.uk/about/blogs/capitalism-and-conflict-margins-why-online-scams-flourish-myanmars-borderlands</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2023. “The Enduring Legacy and Historical Continuity of Kokang’s Mutinies.” <em>Tea Circle: A Forum for New Perspectives on Burma/Myanmar</em>.
+          </div>
+          <div class="linkline">
+            <a href="https://teacirclemyanmar.com/politics/the-enduring-legacy-and-historical-continuity-of-kokangs-mutinies/" target="_blank">https://teacirclemyanmar.com/politics/the-enduring-legacy-and-historical-continuity-of-kokangs-mutinies/</a>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. 2023. “The Shadow of Chinese War: Ethnic Tensions, Geopolitics, and Online Scams in the Kokang Conflict in the China-Myanmar Borderland.” <em>SOAS China Institute Blog</em>.
+          </div>
+          <div class="linkline">
+            <a href="https://blogs.soas.ac.uk/china-institute/2023/12/05/conflict-in-the-china-myanmar-borderland/" target="_blank">https://blogs.soas.ac.uk/china-institute/2023/12/05/conflict-in-the-china-myanmar-borderland/</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Work in Progress and Forthcoming</h2>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. Forthcoming. “The Logistics and (Im)Mobilities of Digital Illicit Economies: The Online Scam Industry in Southeast Asia.” <em>Mobilities</em>.
+          </div>
+          <div class="status">Special issue proposal accepted for 2026.</div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu et al. Forthcoming. “Repositioning the Gender Lens in Conflict Studies.” <em>International Studies Review</em>.
+          </div>
+          <div class="status">Forum contribution.</div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. In progress. “Minor Nationalism, Strategic Ambiguity, and Nation-Making in the Liminal Polity.”
+          </div>
+          <div class="status">Article in progress for <em>Ethnic and Racial Studies</em>.</div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu, and Wan Peng. In progress. “Illicit Economies as Political Leverage: Armed Group Strategies and the Politics of Recognition.”
+          </div>
+          <div class="status">Article in progress for <em>Geopolitics</em>.</div>
+        </div>
+
+        <div class="entry">
+          <div class="citation">
+            Peng, Xu. Forthcoming. “Governance and Territorial Control in the China-Myanmar Borderland.”
+          </div>
+          <div class="status">Invited chapter for <em>Springer Global Encyclopedia of Territorial Rights</em>.</div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Contact: <a href="mailto:xu.peng@manchester.ac.uk">xu.peng@manchester.ac.uk</a></p>
+    </div>
+  </footer>
 </body>
 </html>
